@@ -10,7 +10,7 @@ https://musman12529.github.io/Self-Driving-Car/
 
 ## Functionality 
 
-- **Save Button**: Triggers the `save()` function, which stores the current best AI brain configuration into the browser's local storage as a JSON object. So when you restart the Simulation the car will follow the best path that was saved using the save button and it should be pressed when the user thinks that the car has reached further than the last time.
+- **Save Button**: Triggers the `save()` function, which stores the current best AI brain configuration into the browser's local storage as a JSON object. So when you restart the Simulation the car will follow the best path that was saved using the save button and it should be pressed when the user thinks that the car has covered more distance than the last time.
 - **Discard Button**: Executes the `discard()` function, removing the saved AI brain data from the local storage.
 
 ## Components
