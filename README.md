@@ -1,4 +1,5 @@
 # Self-Driving Car Simulation
+# Follow the as defined in the Functionality section to get the desired results.
 
 ## Overview
 
@@ -6,6 +7,11 @@ This project demonstrates a self-driving car simulation using JavaScript and HTM
 
 ## Demo
 https://musman12529.github.io/Self-Driving-Car/
+
+## Functionality 
+
+- **Save Button**: Triggers the `save()` function, which stores the current best AI brain configuration into the browser's local storage as a JSON object.
+- **Discard Button**: Executes the `discard()` function, removing the saved AI brain data from the local storage.
 
 ## Components
 
@@ -47,9 +53,6 @@ https://musman12529.github.io/Self-Driving-Car/
 - **`save()` Function**: Saves the best AI brain's progress into the browser's local storage as a JSON object.
 - **`discard()` Function**: Removes the saved AI brain data from the local storage.
 
-## Functionality of Buttons
 
-- **Save Button**: Triggers the `save()` function, which stores the current best AI brain configuration into the browser's local storage as a JSON object.
-- **Discard Button**: Executes the `discard()` function, removing the saved AI brain data from the local storage.
 
 This project integrates various classes, methods, and event handling in JavaScript to create a comprehensive simulation of a self-driving car environment. Users can interact with the simulation by saving or deleting the AI's learned behaviors through the provided buttons.
